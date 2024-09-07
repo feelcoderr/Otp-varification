@@ -1,13 +1,18 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD7yX4h_k4cNTyZLO6TZAbCbnhSuZOMUdg",
-  authDomain: "otp-demo-481b4.firebaseapp.com",
-  projectId: "otp-demo-481b4",
-  storageBucket: "otp-demo-481b4.appspot.com",
-  messagingSenderId: "679151518309",
-  appId: "1:679151518309:web:9e2de76ea7d3837b0abc8c",
+  apiKey: "AIzaSyDHaKhqid9unWnN3eZ_JZ_z6HMxUEuM2Z8",
+  authDomain: "fir-otp-vercel.firebaseapp.com",
+  projectId: "fir-otp-vercel",
+  storageBucket: "fir-otp-vercel.appspot.com",
+  messagingSenderId: "1084128988140",
+  appId: "1:1084128988140:web:6be977b159d20d5d0e0ec9",
 };
 
 // Initialize Firebase
